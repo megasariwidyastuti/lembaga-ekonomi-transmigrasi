@@ -49,7 +49,7 @@ var lyr_SebaranKawasanPrioritas_3 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_SebaranKawasanPrioritas_3, 
                 style: style_SebaranKawasanPrioritas_3,
-                popuplayertitle: 'Sebaran Kawasan Prioritas',
+                popuplayertitle: 'Lembaga Ekonomi Kawasan Transmigrasi (update:19 Feb 2025)',
                 interactive: true,
     title: 'Sebaran Kawasan Prioritas<br />\
     <img src="styles/legend/SebaranKawasanPrioritas_3_0.png" /> Prioritas Kementerian<br />\
@@ -68,11 +68,11 @@ var lyr_LembagaEkonomiDominan_4 = new ol.layer.Vector({
                 popuplayertitle: 'Lembaga Ekonomi Dominan',
                 interactive: false,
     title: 'Lembaga Ekonomi Dominan<br />\
-    <img src="styles/legend/LembagaEkonomiDominan_4_0.png" /> BUMDES/BUMDESMA<br />\
-    <img src="styles/legend/LembagaEkonomiDominan_4_1.png" /> KOPERASI<br />\
-    <img src="styles/legend/LembagaEkonomiDominan_4_2.png" /> NON BADAN HUKUM (KELOMPOK)<br />\
-    <img src="styles/legend/LembagaEkonomiDominan_4_3.png" /> PERUSAHAAN<br />\
-    <img src="styles/legend/LembagaEkonomiDominan_4_4.png" /> Tidak ada lembaga<br />' });
+    <img src="styles/legend/LembagaEkonomiDominan_4_0.png" /> Bumdes/Bumdesma<br />\
+    <img src="styles/legend/LembagaEkonomiDominan_4_1.png" /> Koperasi<br />\
+    <img src="styles/legend/LembagaEkonomiDominan_4_2.png" /> Non Badan Hukum (Kelompok)<br />\
+    <img src="styles/legend/LembagaEkonomiDominan_4_3.png" /> Perusahaan<br />\
+    <img src="styles/legend/LembagaEkonomiDominan_4_4.png" /> Tidak ada data lembaga<br />' });
 
 lyr_DarkBasemap_0.setVisible(true);lyr_GoogleSatelliteHybrid_1.setVisible(false);lyr_KawasanTransmigrasi_2.setVisible(true);lyr_SebaranKawasanPrioritas_3.setVisible(true);lyr_LembagaEkonomiDominan_4.setVisible(false);
 var layersList = [lyr_DarkBasemap_0,lyr_GoogleSatelliteHybrid_1,lyr_KawasanTransmigrasi_2,lyr_SebaranKawasanPrioritas_3,lyr_LembagaEkonomiDominan_4];
